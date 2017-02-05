@@ -5,6 +5,7 @@ import { Component } from '@angular/core';
   template: `
     <h1>Inline template</h1> 
     <app-databinding></app-databinding>
+    <app-lifecycle></app-lifecycle>
   `,
   styles: [`
     h1{

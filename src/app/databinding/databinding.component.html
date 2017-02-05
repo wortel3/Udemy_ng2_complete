@@ -6,3 +6,9 @@
 <input type="text" class="text" [value]="stringInterpolation">
 <p [ngClass]="{redBorder: onTest()}">Is this styled?</p>
 <p [ngStyle]="{color: 'pink'}">Is this styled?</p>
+<h2>Custom Properties</h2>
+<app-property-binding [result]=10></app-property-binding>
+<hr>
+<h2>Event Binding</h2>
+<app-event-binding (clicked)="onClick($event)" > </app-event-binding>
+<app-two-way-databinding> </app-two-way-databinding>

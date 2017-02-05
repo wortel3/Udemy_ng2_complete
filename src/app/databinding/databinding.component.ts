@@ -10,7 +10,9 @@ export class DatabindingComponent{
   numberInterpolation = 8; 
   onTest(){
     return false;
-    
+  }
+  onClick(value:string){
+    alert(value); 
   }
 } 
 
